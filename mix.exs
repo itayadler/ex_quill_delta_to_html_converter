@@ -21,6 +21,7 @@ defmodule ExQuillDeltaToHtmlConverter.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ecto_enum, "~> 1.4.0"},
       {:html_entities, "~> 0.5.2"},
       {:jason, "~> 1.4.1"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
